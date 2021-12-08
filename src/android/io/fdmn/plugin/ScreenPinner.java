@@ -67,7 +67,10 @@ public class ScreenPinner extends CordovaPlugin {
                 return false;
             }
         } catch(Exception e) {
-            callback.error(e.getMessage());
+            StringWriter sw = new StringWriter();
+            PrintWriter pw = new PrintWriter(sw);
+            e.printStackTrace(pw);
+            callback.error(sw.toString());
             return false;
         }
     }
@@ -87,7 +90,10 @@ public class ScreenPinner extends CordovaPlugin {
 
         }
         catch (Exception e) {
-            callback.error(e.getMessage());
+            StringWriter sw = new StringWriter();
+            PrintWriter pw = new PrintWriter(sw);
+            e.printStackTrace(pw);
+            callback.error(sw.toString());
             return false;
         }    
     }
@@ -105,7 +111,10 @@ public class ScreenPinner extends CordovaPlugin {
             }
         }
         catch (Exception e) {
-            callback.error(e.getMessage());
+            StringWriter sw = new StringWriter();
+            PrintWriter pw = new PrintWriter(sw);
+            e.printStackTrace(pw);
+            callback.error(sw.toString());
             return false;
         }    
     }

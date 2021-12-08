@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-screen-pinner",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "Package for accessing the Screen Pinning API on android.",
   "cordova": {
     "id": "cordova-plugin-screen-pinner",
@@ -13,6 +13,8 @@
     "url": "git+https://github.com/mrandrewrourke/screen-pinner.git"
   },
   "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
     "Cordova",
     "Ionic",
     "Android",
