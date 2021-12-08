@@ -10,7 +10,8 @@ import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.ComponentName;
 import android.content.Context;
-
+import java.io.StringWriter;
+import java.io.PrintWriter;
 
 public class ScreenPinner extends CordovaPlugin {
 

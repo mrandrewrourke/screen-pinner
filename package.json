@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-screen-pinner",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Package for accessing the Screen Pinning API on android.",
   "cordova": {
     "id": "cordova-plugin-screen-pinner",
