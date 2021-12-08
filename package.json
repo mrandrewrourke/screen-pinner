@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-screen-pinner",
+  "version": "1.0.2",
+  "description": "Package for accessing the Screen Pinning API on android.",
+  "cordova": {
+    "id": "cordova-plugin-screen-pinner",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrandrewrourke/screen-pinner.git"
+  },
+  "keywords": [
+    "Cordova",
+    "Ionic",
+    "Android",
+    "Screen",
+    "Pinning",
+    "API",
+	"Kiosk"
+  ],
+  "author": "Andrew Rourke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrandrewrourke/screen-pinner/issues"
+  },
+  "homepage": "https://github.com/mrandrewrourke/screen-pinner#readme"
+}
