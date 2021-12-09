@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-screen-pinning"
-        version="1.0.8">
+        version="1.0.9">
     <name>Screen Pinner</name>
     <description>Cordova plugin exposing Android's screen pinning APIs</description>
     <license>MIT</license>
@@ -11,9 +11,9 @@
     </js-module>
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-        <feature name="ScreenPinner">
-            <param name="android-package" value="io.fdmn.plugin.ScreenPinner" />
-        </feature>
+            <feature name="ScreenPinner">
+                <param name="android-package" value="io.fdmn.plugin.ScreenPinner" />
+            </feature>
         </config-file>
         <source-file src="src/android/io/fdmn/plugin/ScreenPinner.java" target-dir="src/io/fdmn/plugin" />
     </platform>

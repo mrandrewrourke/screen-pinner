@@ -1,3 +1,7 @@
+# WORK IN PROGRESS
+
+Please note this repo is still in development and is not suggested for use yet. Please check back here for an updated version.
+
 # Screen Pinner
 
 Screen Pinner allows you to utilise the Screen Pinning API for Android in Cordova projects.

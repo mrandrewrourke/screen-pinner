@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-screen-pinner",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Package for accessing the Screen Pinning API on android.",
   "cordova": {
     "id": "cordova-plugin-screen-pinner",
@@ -15,13 +15,17 @@
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
-    "Cordova",
-    "Ionic",
-    "Android",
-    "Screen",
-    "Pinning",
-    "API",
-	"Kiosk"
+    "cordova",
+    "ionic",
+    "android",
+    "screen",
+    "pinning",
+    "api",
+    "kiosk",
+    "lock app",
+    "lock screen",
+    "win lock",
+    "winlock"
   ],
   "author": "Andrew Rourke",
   "license": "MIT",
